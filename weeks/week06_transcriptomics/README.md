@@ -1,4 +1,4 @@
-# Week 6 — Transcriptomics
+# Week 6 - Transcriptomics
 
 **27200 · 08 October 2026 · Thursday, 08:00–12:00**
 
@@ -36,10 +36,9 @@ All material lives in its own repository:
 
 ## What you'll do today
 
-- **Make a count matrix yourself.** Run the nf-core/rnaseq pipeline on a handful of
-  sub-sampled files and watch reads turn into a table of numbers. It is a small
-  demonstration, not the data you analyse afterwards, and that distinction is part of
-  the point.
+- **Make a count matrix yourself.** Run the nf-core/rnaseq pipeline on two sub-sampled
+  samples and watch reads turn into a table of numbers. It is a small demonstration,
+  not the data you analyse afterwards, and that distinction is part of the point.
 - **Read a count matrix critically.** Library sizes, filtering, normalisation, and what
   a PCA is and is not telling you about your samples.
 - **Test a hypothesis with DESeq2.** Build a design formula, see what changes when you
@@ -60,8 +59,8 @@ of the book.
 
 You work in groups of four, in Jupyter notebooks with an R kernel. The code is written
 for you: the exercise is reading the output and arguing about what it means. Each
-notebook ends with **interpretation questions** — those are the point of the session,
-and nobody expects a complete answer to them.
+notebook ends with **interpretation questions**, and those are the point of the
+session. Nobody expects a complete answer to them.
 
 AI assistants are allowed and encouraged, as long as you check what they tell you.
 Copilot Chat is available in the Codespace, and the book has a section on using it
@@ -69,7 +68,13 @@ sensibly.
 
 ## Before the session
 
-Nothing to install. If you want to look ahead, the
+**You need a GitHub account.** If you do not have one already, create a free account at
+[github.com/signup](https://github.com/signup) before Thursday. Sign up with your DTU
+address if you can: that also gets you the free
+[Student Developer Pack](https://education.github.com/pack), which includes GitHub
+Copilot.
+
+Nothing else to install. If you want to look ahead, the
 [course book](https://biosustain.github.io/dsp_transcriptomics_27200-Data-driven-bioengineering/)
 has every chapter in full, with the code and the outputs.
 
